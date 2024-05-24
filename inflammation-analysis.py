@@ -14,7 +14,7 @@ def main(args):
     - passing data between models and views
     """
     InFiles = args.infiles
-    if not isinstance(InFiles, list):
+    if not isinstance(nFilesI, list):
         InFiles = [args.infiles]
 
 
